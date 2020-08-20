@@ -1,0 +1,20 @@
+{
+  "name": "frida-struct",
+  "version": "1.0.0",
+  "description": "A Frida module for easy struct parsing.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist/"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^15.3.0",
+    "@types/node": "^14.0.5",
+    "typescript": "^3.9.3"
+  }
+}
