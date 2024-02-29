@@ -1,5 +1,3 @@
-import { parse } from "path";
-
 const PROCESS_PLATFORM = Process.platform;
 
 interface StringDict {
